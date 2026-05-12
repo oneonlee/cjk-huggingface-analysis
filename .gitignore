@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.python-version
+
+# macOS
+.DS_Store
+
+# BFS 중간 산물
+bfs_*.json
+model_ids_*.json
+backup_*/
+*.bak
+*.pid
+*.log
+
+# uv
+uv.lock

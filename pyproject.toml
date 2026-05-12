@@ -1,0 +1,14 @@
+[project]
+name = "cjk-huggingface-analysis"
+version = "0.1.0"
+description = "CJK language dataset & model metadata collection from HuggingFace Hub"
+requires-python = ">=3.9"
+dependencies = [
+    "requests",
+    "beautifulsoup4",
+    "pandas",
+    "pyyaml",
+    "gitpython",
+    "tqdm",
+    "matplotlib>=3.9.4",
+]
